@@ -63,8 +63,8 @@ This project is an end-to-end data analysis solution designed to extract critica
      - Profit margin analysis by branch and category.
    - **Documentation**: Keep clear notes of each query's objective, approach, and results.
      
-``` --Q.1 Find different payment method and number of transactions, number of qty sold
-SELECT
+--Q.1 Find different payment method and number of transactions, number of qty sold
+```SELECT
 	payment_method,
 	Count(*) as no_payments,
 	SUM(quantity) as no_qty_sold
